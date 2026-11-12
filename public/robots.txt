@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace https://your-domain.com with your live domain before deploying
+Sitemap: https://your-domain.com/sitemap.xml

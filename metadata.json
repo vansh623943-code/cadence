@@ -1,0 +1,6 @@
+{
+  "name": "Cadence — Study Planner & Pomodoro",
+  "description": "A calm, focused study planner, exam countdown tracker, and Pomodoro timer for students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
