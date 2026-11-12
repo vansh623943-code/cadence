@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# Replace https://your-domain.com with your live domain before deploying
-Sitemap: https://your-domain.com/sitemap.xml
+# Replace https://cadence-study-planner.netlify.app with your live domain before deploying
+Sitemap: https://cadence-study-planner.netlify.app/sitemap.xml
