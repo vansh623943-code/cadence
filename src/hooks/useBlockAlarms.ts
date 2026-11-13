@@ -22,7 +22,7 @@ interface SnoozeEntry {
   block: TimeBlock;
 }
 
-const FIRED_STORAGE_KEY = 'cadence-fired-block-alarms-v1';
+const FIRED_STORAGE_KEY = 'Kilostudy Planner-fired-block-alarms-v1';
 
 function loadFiredSet(): Set<string> {
   try {

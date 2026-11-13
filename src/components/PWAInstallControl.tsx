@@ -32,7 +32,7 @@ export const PWAInstallControl: React.FC<PWAInstallControlProps> = ({ variant = 
       return (
         <div className="flex items-center justify-between gap-3 rounded-lg border border-indigo-200 bg-indigo-50/70 px-4 py-3 dark:border-indigo-900/60 dark:bg-indigo-950/35">
           <div>
-            <div className="text-sm font-medium text-slate-900 dark:text-slate-100">Install Cadence App</div>
+            <div className="text-sm font-medium text-slate-900 dark:text-slate-100">Install Kilostudy Planner App</div>
             <div className="text-xs text-slate-600 dark:text-slate-400">
               Use offline as a standalone desktop or mobile app
             </div>

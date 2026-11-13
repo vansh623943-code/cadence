@@ -1,6 +1,6 @@
 import { CustomTune, CustomTuneMeta } from '../types/study';
 
-const DB_NAME = 'cadence-audio-db';
+const DB_NAME = 'Kilostudy Planner-audio-db';
 const DB_VERSION = 1;
 const STORE_NAME = 'customTunes';
 export const MAX_CUSTOM_TUNE_BYTES = 5 * 1024 * 1024; // 5 MB

@@ -35,7 +35,7 @@ export const StudyTipsPage: React.FC<StudyTipsPageProps> = ({ onBack, onNavigate
             procrastinating, you only have to commit to finishing one short block.
           </p>
           <p className="leading-relaxed">
-            The trick is protecting the interval from context switching. Before pressing Start in Cadence, pick
+            The trick is protecting the interval from context switching. Before pressing Start in Kilostudy Planner, pick
             one specific task—such as solving ten calculus problems or summarizing Chapter 4—and link that task
             to your timer. During the 5-minute break, step away from your desk, stretch, or drink water rather
             than scrolling social feeds, which pulls your brain into a different attention loop.
@@ -129,7 +129,7 @@ export const StudyTipsPage: React.FC<StudyTipsPageProps> = ({ onBack, onNavigate
           <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
             <li>Put your phone in another room, inside your backpack, or on Do Not Disturb during focus sprints.</li>
             <li>Keep a scratchpad next to you to jot down random urges to look something up—check them only during breaks.</li>
-            <li>Run Cadence in Fullscreen Focus Mode on your laptop and close unrelated social or video tabs before starting.</li>
+            <li>Run Kilostudy Planner in Fullscreen Focus Mode on your laptop and close unrelated social or video tabs before starting.</li>
           </ul>
         </section>
 

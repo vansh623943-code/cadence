@@ -15,8 +15,8 @@ export default defineConfig(() => {
         includeAssets: ['icon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png', 'pwa-maskable-512x512.png'],
         manifest: {
           id: '/',
-          name: 'Cadence',
-          short_name: 'Cadence',
+          name: 'Kilostudy Planner',
+          short_name: 'Kilostudy Planner',
           description: 'A calm, focused study planner, exam countdown tracker, and Pomodoro timer for students.',
           theme_color: '#4F46E5',
           background_color: '#F8FAFC',

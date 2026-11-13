@@ -69,7 +69,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             }}
             className="font-display text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100"
           >
-            Cadence
+            Kilostudy Planner
           </a>
         </div>
 
@@ -200,7 +200,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           }}
           className="font-display text-lg font-bold tracking-tight text-slate-900 dark:text-slate-100"
         >
-          Cadence
+          Kilostudy Planner
         </a>
 
         <div className="flex items-center gap-2">

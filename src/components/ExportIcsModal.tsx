@@ -70,8 +70,8 @@ export const ExportIcsModal: React.FC<ExportIcsModalProps> = ({
         onNotify(`No blocks scheduled on ${formatShortDate(selectedDate)}.`, 'error');
         return;
       }
-      const ics = generateIcsForBlocks(dayBlocks, subjects, `Cadence (${selectedDate})`);
-      downloadIcsFile(ics, `cadence-${selectedDate}.ics`);
+      const ics = generateIcsForBlocks(dayBlocks, subjects, `Kilostudy Planner (${selectedDate})`);
+      downloadIcsFile(ics, `Kilostudy Planner-${selectedDate}.ics`);
       onNotify('Calendar (.ics) file downloaded.');
       onClose();
       return;
@@ -86,9 +86,9 @@ export const ExportIcsModal: React.FC<ExportIcsModalProps> = ({
       const ics = generateIcsForBlocks(
         rangeBlocks,
         subjects,
-        `Cadence (${rangeStart} to ${rangeEnd})`
+        `Kilostudy Planner (${rangeStart} to ${rangeEnd})`
       );
-      downloadIcsFile(ics, `cadence-${rangeStart}-to-${rangeEnd}.ics`);
+      downloadIcsFile(ics, `Kilostudy Planner-${rangeStart}-to-${rangeEnd}.ics`);
       onNotify('Calendar (.ics) file downloaded.');
       onClose();
       return;
@@ -106,7 +106,7 @@ export const ExportIcsModal: React.FC<ExportIcsModalProps> = ({
       tplEndDate || undefined,
       subjects
     );
-    downloadIcsFile(ics, `cadence-${tpl.name.toLowerCase().replace(/\s+/g, '-')}.ics`);
+    downloadIcsFile(ics, `Kilostudy Planner-${tpl.name.toLowerCase().replace(/\s+/g, '-')}.ics`);
     onNotify('Repeating template (.ics) downloaded.');
     onClose();
   };

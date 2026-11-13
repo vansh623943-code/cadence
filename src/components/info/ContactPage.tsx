@@ -24,8 +24,8 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onBack, onNavigateInfo
         ? 'Bug Report'
         : topic === 'feature'
         ? 'Feature Suggestion'
-        : 'Cadence Inquiry';
-    const subject = encodeURIComponent(`[Cadence] ${topicLabel} from ${name.trim()}`);
+        : 'Kilostudy Planner Inquiry';
+    const subject = encodeURIComponent(`[Kilostudy Planner] ${topicLabel} from ${name.trim()}`);
     const body = encodeURIComponent(
       `Name: ${name.trim()}\nEmail: ${email.trim()}\nTopic: ${topicLabel}\n\nMessage:\n${message.trim()}`
     );
@@ -75,7 +75,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onBack, onNavigateInfo
             Contact Us
           </h1>
           <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400">
-            Have a question about Cadence, spotted an issue, or want to suggest an improvement for students?
+            Have a question about Kilostudy Planner, spotted an issue, or want to suggest an improvement for students?
             Reach out directly below.
           </p>
         </header>

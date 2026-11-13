@@ -37,7 +37,7 @@ const STEPS = [
   {
     number: '06',
     title: 'Set Alarms and Choose or Upload Tunes',
-    body: 'Open Settings > Sounds to customize how Cadence alerts you when a focus interval, break, or Day Planner block begins. Preview six built-in synthesized tunes—Soft Chime, Temple Bell, Piano Notes, Gentle Wake, Marimba, and Digital Beep—adjust volume and alarm duration (3 seconds, 10 seconds, or until dismissed), or assign separate tunes per block type. You can also upload your own MP3, WAV, M4A, or OGG file (up to 5 MB), stored privately in your browser’s IndexedDB. When a Day Planner alarm fires, you can snooze for 5 minutes or stop it immediately.',
+    body: 'Open Settings > Sounds to customize how Kilostudy Planner alerts you when a focus interval, break, or Day Planner block begins. Preview six built-in synthesized tunes—Soft Chime, Temple Bell, Piano Notes, Gentle Wake, Marimba, and Digital Beep—adjust volume and alarm duration (3 seconds, 10 seconds, or until dismissed), or assign separate tunes per block type. You can also upload your own MP3, WAV, M4A, or OGG file (up to 5 MB), stored privately in your browser’s IndexedDB. When a Day Planner alarm fires, you can snooze for 5 minutes or stop it immediately.',
   },
   {
     number: '07',
@@ -46,8 +46,8 @@ const STEPS = [
   },
   {
     number: '08',
-    title: 'Install Cadence on Your Phone or Laptop',
-    body: 'Cadence is an installable Progressive Web App. On Chrome, Edge, or Android, click the "Install App" button in the sidebar, header, or Settings > Data & App to add Cadence to your home screen or desktop dock. On iPhone or iPad in Safari, tap the Share button and choose "Add to Home Screen." Once installed, Cadence opens in a clean standalone window and continues working offline.',
+    title: 'Install Kilostudy Planner on Your Phone or Laptop',
+    body: 'Kilostudy Planner is an installable Progressive Web App. On Chrome, Edge, or Android, click the "Install App" button in the sidebar, header, or Settings > Data & App to add Kilostudy Planner to your home screen or desktop dock. On iPhone or iPad in Safari, tap the Share button and choose "Add to Home Screen." Once installed, Kilostudy Planner opens in a clean standalone window and continues working offline.',
   },
   {
     number: '09',
@@ -58,8 +58,8 @@ const STEPS = [
 
 const FAQS = [
   {
-    q: 'Does Cadence work offline?',
-    a: 'Yes. Once you visit Cadence or install it as a PWA, its interface and assets are cached locally by the service worker. Your tasks, subjects, day timetable, Pomodoro timer, and built-in or uploaded alarm tunes continue working even without Wi-Fi or mobile data.',
+    q: 'Does Kilostudy Planner work offline?',
+    a: 'Yes. Once you visit Kilostudy Planner or install it as a PWA, its interface and assets are cached locally by the service worker. Your tasks, subjects, day timetable, Pomodoro timer, and built-in or uploaded alarm tunes continue working even without Wi-Fi or mobile data.',
   },
   {
     q: 'Where is my data stored?',
@@ -67,11 +67,11 @@ const FAQS = [
   },
   {
     q: 'Will alarms ring when the app is closed?',
-    a: 'No—to be completely honest about browser limitations, web apps can only guarantee sound playback and desktop notifications while the Cadence tab or installed PWA window remains open. If you need reliable alerts when your phone is locked or your browser is closed, use the Export .ics button in Day Planner to sync your blocks to Google Calendar or your phone’s built-in calendar app.',
+    a: 'No—to be completely honest about browser limitations, web apps can only guarantee sound playback and desktop notifications while the Kilostudy Planner tab or installed PWA window remains open. If you need reliable alerts when your phone is locked or your browser is closed, use the Export .ics button in Day Planner to sync your blocks to Google Calendar or your phone’s built-in calendar app.',
   },
   {
-    q: 'Is Cadence free?',
-    a: 'Yes, Cadence is 100% free to use with no paywalls, subscriptions, or sign-up forms.',
+    q: 'Is Kilostudy Planner free?',
+    a: 'Yes, Kilostudy Planner is 100% free to use with no paywalls, subscriptions, or sign-up forms.',
   },
   {
     q: 'Can I use my own alarm music or ringtone?',
@@ -79,7 +79,7 @@ const FAQS = [
   },
   {
     q: 'What happens if I clear my browser data or switch laptops?',
-    a: 'Because Cadence stores everything locally without an account server, clearing site data for this domain in your browser will erase your workspace. Export a JSON backup from Settings > Data & App regularly so you can restore your full history on any browser in seconds.',
+    a: 'Because Kilostudy Planner stores everything locally without an account server, clearing site data for this domain in your browser will erase your workspace. Export a JSON backup from Settings > Data & App regularly so you can restore your full history on any browser in seconds.',
   },
 ];
 
@@ -92,7 +92,7 @@ export const HowToUsePage: React.FC<HowToUsePageProps> = ({ onBack, onNavigateIn
             User Guide
           </div>
           <h1 className="font-display text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
-            How to Use Cadence
+            How to Use Kilostudy Planner
           </h1>
           <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400">
             Follow this step-by-step walkthrough to set up your subjects, plan realistic days, run distraction-free

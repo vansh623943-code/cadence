@@ -34,8 +34,8 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onBack, onNavigateInfo }) 
             1. Free Personal &amp; Educational Use
           </h2>
           <p className="text-sm leading-relaxed">
-            Cadence is provided free of charge for personal and educational study planning, time management, and
-            focus tracking. By accessing or using Cadence, you agree to these Terms of Use.
+            Kilostudy Planner is provided free of charge for personal and educational study planning, time management, and
+            focus tracking. By accessing or using Kilostudy Planner, you agree to these Terms of Use.
           </p>
         </section>
 
@@ -44,7 +44,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onBack, onNavigateInfo }) 
             2. Provided &ldquo;As Is&rdquo;
           </h2>
           <p className="text-sm leading-relaxed">
-            Cadence is offered strictly on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without
+            Kilostudy Planner is offered strictly on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without
             warranties of any kind, express or implied, including fitness for a particular purpose, uninterrupted
             availability, or error-free operation.
           </p>
@@ -56,7 +56,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onBack, onNavigateInfo }) 
           </h2>
           <p className="text-sm leading-relaxed">
             Due to standard web browser and operating system restrictions, audio alarms and browser
-            notifications are not guaranteed when the Cadence tab or app window is closed, put to sleep by your
+            notifications are not guaranteed when the Kilostudy Planner tab or app window is closed, put to sleep by your
             device&apos;s battery saver, or blocked by device mute/permission settings. For critical wake-up
             calls, exam arrival times, or closed-app reminders, please export your schedule via the{' '}
             <strong>.ics</strong> calendar export feature or use your device&apos;s native alarm clock.
@@ -68,7 +68,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onBack, onNavigateInfo }) 
             4. Your Responsibility for Data Backups
           </h2>
           <p className="text-sm leading-relaxed">
-            Cadence stores your tasks, subjects, exams, timetables, and uploaded alarm tunes locally inside your
+            Kilostudy Planner stores your tasks, subjects, exams, timetables, and uploaded alarm tunes locally inside your
             browser&apos;s storage without remote server backups. Clearing browser cookies/site data, using
             incognito windows, or uninstalling your browser may erase local records. You are solely responsible
             for maintaining regular copies of your study data using the <strong>Export JSON Backup</strong>{' '}
@@ -81,7 +81,7 @@ export const TermsPage: React.FC<TermsPageProps> = ({ onBack, onNavigateInfo }) 
             5. Limitation of Liability
           </h2>
           <p className="text-sm leading-relaxed">
-            To the fullest extent permitted by applicable law, Vansh Thakur and Cadence shall not be liable for
+            To the fullest extent permitted by applicable law, Vansh Thakur and Kilostudy Planner shall not be liable for
             any direct, indirect, incidental, special, or consequential damages—including missed deadlines,
             missed exams, silenced alarms, or loss of locally stored data—arising out of your use of or
             inability to use the application.

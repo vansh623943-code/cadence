@@ -455,7 +455,7 @@ export function sendStudyNotification(title: string, body: string): void {
   try {
     new Notification(title, {
       body,
-      tag: 'cadence-pomodoro',
+      tag: 'Kilostudy Planner-pomodoro',
     });
   } catch {
     // Ignore restricted Notification constructor environments

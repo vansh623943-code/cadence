@@ -57,7 +57,7 @@ const CAPABILITIES = [
   {
     icon: Smartphone,
     title: 'Installable Offline App',
-    desc: 'Install Cadence as a Progressive Web App on Android, iOS, macOS, or Windows so your planner, timer, and schedules stay accessible even without an internet connection.',
+    desc: 'Install Kilostudy Planner as a Progressive Web App on Android, iOS, macOS, or Windows so your planner, timer, and schedules stay accessible even without an internet connection.',
   },
 ];
 
@@ -70,10 +70,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBack, onNavigateInfo }) 
             About the Project
           </div>
           <h1 className="font-display text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
-            About Cadence
+            About Kilostudy Planner
           </h1>
           <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400">
-            Cadence is a free study planner and Pomodoro focus timer built to help students organize tasks,
+            Kilostudy Planner is a free study planner and Pomodoro focus timer built to help students organize tasks,
             upcoming exams, custom subjects, and realistic daily timetables in one calm workspace.
           </p>
         </header>
@@ -89,20 +89,20 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBack, onNavigateInfo }) 
             even open your textbook.
           </p>
           <p className="leading-relaxed">
-            Cadence was created by <strong>Vansh Thakur</strong>, a student and developer who built the app to
+            Kilostudy Planner was created by <strong>Vansh Thakur</strong>, a student and developer who built the app to
             solve real, everyday study-planning challenges—like balancing exam revision alongside coursework,
             preventing burnout through structured breaks, and building daily schedules you can actually stick
-            to. The mission behind Cadence is simple: provide a fast, distraction-free study companion that is
+            to. The mission behind Kilostudy Planner is simple: provide a fast, distraction-free study companion that is
             completely free to use, easy to customize, and respectful of your attention.
           </p>
         </section>
 
         <section className="space-y-4">
           <h2 className="font-display text-xl font-semibold text-slate-900 dark:text-slate-100">
-            What You Can Do With Cadence
+            What You Can Do With Kilostudy Planner
           </h2>
           <p className="leading-relaxed">
-            Every feature in Cadence works together so your long-term goals connect directly to what you work
+            Every feature in Kilostudy Planner works together so your long-term goals connect directly to what you work
             on during your next twenty-five-minute focus block:
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -133,9 +133,9 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBack, onNavigateInfo }) 
             Who It Is For
           </h2>
           <p className="leading-relaxed">
-            Cadence is designed for high school students, university undergraduates, graduate researchers, and
+            Kilostudy Planner is designed for high school students, university undergraduates, graduate researchers, and
             self-learners preparing for competitive exams or certification tests. Whether you prefer loose daily
-            task checklists or strict hour-by-hour time blocking, Cadence adapts to your study style without
+            task checklists or strict hour-by-hour time blocking, Kilostudy Planner adapts to your study style without
             forcing rigid workflows or complicated setup menus.
           </p>
         </section>
@@ -148,7 +148,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBack, onNavigateInfo }) 
             </h2>
           </div>
           <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-            Your study plans belong to you. Cadence requires no account registration, no password, and no cloud
+            Your study plans belong to you. Kilostudy Planner requires no account registration, no password, and no cloud
             sync subscription. All of your tasks, subjects, exam dates, focus session history, daily time
             blocks, and custom uploaded alarm tunes stay directly on your own device using your browser&apos;s
             local storage and IndexedDB. Whenever you want to move to a new laptop or keep a personal copy,

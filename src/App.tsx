@@ -41,7 +41,7 @@ import { PrivacyPolicyPage } from './components/info/PrivacyPolicyPage';
 import { TermsPage } from './components/info/TermsPage';
 import { ContactPage } from './components/info/ContactPage';
 
-const STORAGE_KEY = 'cadence-study-planner-v1';
+const STORAGE_KEY = 'Kilostudy Planner-study-planner-v1';
 
 function generateId(prefix: string): string {
   if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {

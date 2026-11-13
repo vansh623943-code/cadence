@@ -20,7 +20,7 @@ const MODE_LABELS: Record<TimerMode, string> = {
   longBreak: 'Long Break',
 };
 
-const DEFAULT_TITLE = 'Cadence — Study Planner, Timetable & Pomodoro Timer';
+const DEFAULT_TITLE = 'Kilostudy Planner — Study Planner, Timetable & Pomodoro Timer';
 
 export function useTimer({ settings, onFocusComplete, defaultTitleOverride }: UseTimerOptions) {
   const [mode, setMode] = useState<TimerMode>('focus');
@@ -156,7 +156,7 @@ export function useTimer({ settings, onFocusComplete, defaultTitleOverride }: Us
     const idleTitle = defaultTitleOverride || DEFAULT_TITLE;
     const total = getDurationSeconds(mode);
     if (isRunning || (hasStartedCurrentRef.current && secondsLeft < total)) {
-      document.title = `${formatClock(secondsLeft)} - ${MODE_LABELS[mode]} · Cadence`;
+      document.title = `${formatClock(secondsLeft)} - ${MODE_LABELS[mode]} · Kilostudy Planner`;
     } else {
       document.title = idleTitle;
     }

@@ -59,7 +59,7 @@ function buildAlarms(title: string, alarmAtStart: boolean, alarm5MinBefore: bool
 export function generateIcsForBlocks(
   blocks: TimeBlock[],
   subjects: Subject[],
-  calendarName: string = 'Cadence Day Planner'
+  calendarName: string = 'Kilostudy Planner Day Planner'
 ): string {
   const subjMap = new Map(subjects.map((s) => [s.id, s.name]));
   const dtstamp = formatIcsUtcStamp();
@@ -67,7 +67,7 @@ export function generateIcsForBlocks(
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Cadence//Study Planner & Pomodoro//EN',
+    'PRODID:-//Kilostudy Planner//Study Planner & Pomodoro//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `X-WR-CALNAME:${escapeIcsText(calendarName)}`,
@@ -88,7 +88,7 @@ export function generateIcsForBlocks(
 
     lines.push(
       'BEGIN:VEVENT',
-      `UID:${block.id}@cadence.study`,
+      `UID:${block.id}@Kilostudy Planner.study`,
       `DTSTAMP:${dtstamp}`,
       `DTSTART:${dtStart}`,
       `DTEND:${dtEnd}`,
@@ -136,10 +136,10 @@ export function generateIcsForTemplate(
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Cadence//Study Planner & Pomodoro//EN',
+    'PRODID:-//Kilostudy Planner//Study Planner & Pomodoro//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    `X-WR-CALNAME:${escapeIcsText(`Cadence — ${template.name}`)}`,
+    `X-WR-CALNAME:${escapeIcsText(`Kilostudy Planner — ${template.name}`)}`,
   ];
 
   for (const tb of template.blocks) {
@@ -158,7 +158,7 @@ export function generateIcsForTemplate(
 
     lines.push(
       'BEGIN:VEVENT',
-      `UID:${template.id}-${tb.id}@cadence.study`,
+      `UID:${template.id}-${tb.id}@Kilostudy Planner.study`,
       `DTSTAMP:${dtstamp}`,
       `DTSTART:${dtStart}`,
       `DTEND:${dtEnd}`,

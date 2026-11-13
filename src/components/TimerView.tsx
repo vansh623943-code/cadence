@@ -212,7 +212,7 @@ export const TimerView: React.FC<TimerViewProps> = ({
         className="fixed inset-0 z-50 flex flex-col items-center justify-between bg-slate-50 px-6 py-8 dark:bg-slate-950"
       >
         <div className="flex w-full max-w-3xl items-center justify-between">
-          <span className="font-display text-lg font-bold text-slate-900 dark:text-slate-100">Cadence · Focus Mode</span>
+          <span className="font-display text-lg font-bold text-slate-900 dark:text-slate-100">Kilostudy Planner · Focus Mode</span>
           <button
             type="button"
             onClick={exitFocusFullscreen}

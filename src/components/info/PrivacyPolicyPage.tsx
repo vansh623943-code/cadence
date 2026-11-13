@@ -34,10 +34,10 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             1. Overview &amp; No Account Required
           </h2>
           <p className="text-sm leading-relaxed">
-            Cadence (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the application&rdquo;) is a student study
+            Kilostudy Planner (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the application&rdquo;) is a student study
             planner, day timetable builder, and Pomodoro focus timer created by <strong>Vansh Thakur</strong>.
             You do not need to create an account, log in, or submit personal registration details to use
-            Cadence.
+            Kilostudy Planner.
           </p>
         </section>
 
@@ -46,7 +46,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             2. Data Stored Locally on Your Device
           </h2>
           <p className="text-sm leading-relaxed">
-            All study data you enter inside Cadence is stored strictly locally in your web browser on your own
+            All study data you enter inside Kilostudy Planner is stored strictly locally in your web browser on your own
             device and is not transmitted to or stored on our servers:
           </p>
           <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
@@ -70,7 +70,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             3. Advertising &amp; Third-Party Vendors (Google AdSense)
           </h2>
           <p className="text-sm leading-relaxed">
-            To keep Cadence free for students, this website may display advertisements served by third-party
+            To keep Kilostudy Planner free for students, this website may display advertisements served by third-party
             advertising partners such as Google.
           </p>
           <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
@@ -115,7 +115,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             4. Cookies &amp; Browser Technologies
           </h2>
           <p className="text-sm leading-relaxed">
-            Cadence itself does not set tracking cookies to profile your study habits. However, third-party
+            Kilostudy Planner itself does not set tracking cookies to profile your study habits. However, third-party
             advertising networks (such as Google AdSense) and embedded fonts or CDN resources may use cookies or
             similar browser identifiers for ad delivery, frequency capping, aggregated reporting, and fraud
             prevention. You can manage or block cookies at any time through your browser settings.
@@ -127,7 +127,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             5. Notifications &amp; Device Permissions
           </h2>
           <p className="text-sm leading-relaxed">
-            If you enable desktop or mobile browser notifications, Cadence requests the browser Notification
+            If you enable desktop or mobile browser notifications, Kilostudy Planner requests the browser Notification
             permission solely to alert you when a Pomodoro focus session, break, or scheduled Day Planner block
             begins or is five minutes away. Notification permissions are handled locally by your browser and can
             be revoked anytime in your browser site settings.
@@ -139,7 +139,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             6. Children&apos;s Privacy
           </h2>
           <p className="text-sm leading-relaxed">
-            Cadence is not directed to children under the age of 13, and we do not knowingly collect any
+            Kilostudy Planner is not directed to children under the age of 13, and we do not knowingly collect any
             personally identifiable information from children under 13. If you are a parent or guardian and
             believe a child under 13 has shared personal information with us via email or another channel,
             please contact us so we can promptly delete it.
@@ -175,7 +175,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onBack, on
             9. Contact Details
           </h2>
           <p className="text-sm leading-relaxed">
-            If you have questions about this Privacy Policy or how Cadence handles data, please contact:
+            If you have questions about this Privacy Policy or how Kilostudy Planner handles data, please contact:
           </p>
           <p className="text-sm font-medium text-slate-900 dark:text-slate-100">
             Vansh Thakur ·{' '}

@@ -160,7 +160,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `cadence-study-backup-${toLocalDateStr()}.json`;
+    link.download = `Kilostudy Planner-study-backup-${toLocalDateStr()}.json`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
